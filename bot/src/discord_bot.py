@@ -30,7 +30,8 @@ META = json.loads(open(META_PATH).read())
 def initialize_bot():
     bot = commands.Bot(command_prefix="$", case_insensitive=True)
     register_commands(bot)
-    bot.run(consts.DISCORD_TOKEN)
+    bot.run(consts.OTk3NjEwMzkwODEwNzkyMTI4.GAqFMV.7Pihr5rB14W4WPDd1yb83K9HcqYOR-AInDHU-E
+)
 
 
 async def send_image_binary(ctx, img):
